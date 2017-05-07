@@ -1,5 +1,38 @@
 body 
 {
-	
-	color:red;
+	margin: 0 auto;
+}
+header
+{
+	background-color: #A9A9A9;
+}
+
+header nav ul li 
+{
+        list-style: none;
+}
+
+header nav ul li a
+{
+        text-decoration: none;
+}
+
+.About
+{
+	margin-bottom: 15px;
+}
+
+.Tools
+{
+	margin-bottom: 15px;	
+}
+
+.Contact
+{
+	margin-bottom: 15px;
+}
+
+footer
+{
+	background-color: #696969;
 }
