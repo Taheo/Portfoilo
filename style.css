@@ -1,38 +1,70 @@
+html
+{
+	 box-sizing: border-box;
+}
 body 
 {
 	margin: 0 auto;
+	width: 100%;
 }
 header
 {
 	background-color: #A9A9A9;
+	height: 100px;
+	padding: 0 20px;
+}
+header nav 
+{
+	padding-top: 20px;
+}
+
+header nav ul
+{
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 header nav ul li 
 {
-        list-style: none;
+    list-style: none;
+    margin-right: 20px;
+
 }
 
 header nav ul li a
 {
-        text-decoration: none;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 1px solid black;
+    color: black;
+   
+   
 }
 
 .About
 {
 	margin-bottom: 15px;
+	padding: 0 20px;
 }
 
 .Tools
 {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
+	padding: 0 20px;	
 }
 
 .Contact
 {
 	margin-bottom: 15px;
+	padding: 0 20px;
 }
 
 footer
 {
 	background-color: #696969;
+	padding: 0 20px;
 }
